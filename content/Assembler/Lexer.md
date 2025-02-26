@@ -1,5 +1,10 @@
 > Don't overdo it ! You'll need to write a parser ...
 
+## Source Code
+
+[lexer.rs](https://github.com/benoitlx/simple-assembler/blob/main/src/lexer.rs)
+
+
 > [!tip]+ Tip when writing the regex for the tokens
 > - Begin by explicitly setting the same priority for every regex
 > - When adding more regex with the same priority you'll be able to identify the conflicting regex

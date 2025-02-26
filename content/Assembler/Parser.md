@@ -1,3 +1,7 @@
+## Source Code
+
+[parser.rs](https://github.com/benoitlx/simple-assembler/blob/main/src/parser.rs)
+
 > [!danger] FIXME
 > - Some of the identifier used in an assembly program are declared only after in the program (e.g. `A = label\nlabel:`). My program crash because it tries to read in the Hashtable containing the identifiers but finds nothing.
 > 	- Maybe I should iterate twice : one for the directive (equivalent of preprocessor in C) and one for the actual instructions > Even this solution is not ideal because to assign a value to each label identifier we need to know the actual address in the program ... 
