@@ -1,6 +1,5 @@
 ---
-tags:
-  - meta
+draft: "true"
 ---
 ### TODO
 - [ ] faire un meilleur dashboard lol
